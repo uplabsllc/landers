@@ -1,0 +1,36 @@
+
+{{! This is the post loop - each post will be output using this markup }}
+
+{{#foreach posts filter="featured:false"}}
+{{#if @first}}
+  <div class="feat-row">
+      <div class="row">
+              <div class="col-md-5">
+                 <a href="{{url}}"><img class="pull-left" src={{image}} /></a>
+              </div>
+              <div class="col-md-7">
+                <div class="feat-row-caption pull-right">
+                   <a href="{{url}}"><h4>{{title}}</h4></a>
+                    <p>{{excerpt words="50"}}<a class="read-more" href="{{url}}"> &raquo;</a></p>               
+                </div>
+              </div>
+      </div>
+  </div>
+  <h4 class="headline">TOP HEADLINES</h4>
+{{else}} 
+  <div style="margin-bottom:10px;" class="rows ">
+    <div class="col-md-3">
+      <img height="150"class="img-responsive" src="{{image}}">
+    </div>
+    <div class="col-md-9">
+          <h4 class="post-title"><a href="{{url}}">{{{title}}}</a></h4>
+          <p>{{excerpt words="26"}} <a class="read-more" href="{{url}}">&raquo;</a></p>
+    </div>
+    <hr size="30">
+  </div>
+  <div class="clearfix"></div>
+{{/if}}
+{{/foreach}}
+
+{{! Previous/next page links - displayed on every page }}
+{{pagination}}

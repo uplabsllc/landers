@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{! Document Settings }}
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    {{! Page Meta }}
+    <title>{{meta_title}}</title>
+    <meta name="description" content="{{meta_description}}" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="{{asset "img/favicon.ico"}}">
+
+    {{! Styles'n'Scripts }}
+    <link rel="stylesheet" type="text/css" href="{{asset "css/bootstrap.min.css"}}" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="{{asset "css/styles.css"}}">
+    <link rel="stylesheet" type="text/css" href="{{asset "css/nav.css"}}" />
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    {{! Ghost outputs important style and meta data with this tag }}
+    {{ghost_head}}
+
+    <div id="fb-root"></div>
+
+</head>
+<body class="{{body_class}} nav-closed">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=745334705577097";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<br>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-10">
+        <img class="img-responsive" src="{{asset "img/logo.png"}}" />
+        </div>
+        <div class="col-md-2 hidden-xs">
+        <section class="share">
+            <a class="fa fa-twitter-square fa-2x" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}"
+                onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <span class="hidden">Twitter</span>
+            </a>
+            <a class="fa fa-facebook-square fa-2x" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}"
+                onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <span class="hidden">Facebook</span>
+            </a>
+            <a class="fa fa-google-plus-square fa-2x" href="https://plus.google.com/share?url={{url absolute="true"}}"
+               onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <span class="hidden">Google+</span>
+            </a>
+        </section>        
+        </div>
+    </div>
+    <br>
+{{navigation}}
+
+        {{! Everything else gets inserted here }}
+        {{{body}}}
+        <div class="row">
+        <footer class="site-footer clearfix">
+        <div class="col-xs-12 hidden-xs">{{navigation}}
+</div>
+        <div class="col-xs-6 col-xs-offset-3">
+            <section class="copyright text-center"><a>About Us</a>&nbsp;<a>Privacy</a>&nbsp;<a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
+            <section class="poweredby text-center">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+            </div>
+        </footer>
+        </div>
+    </div>
+
+    {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
+    <script type="text/javascript" src="{{asset "js/jquery-1.12.0.min.js"}}"></script>
+    {{! Ghost outputs important scripts and data with this tag }}
+    {{ghost_foot}}
+
+<!--     <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
+ -->    {{! The main JavaScript file for Casper }}
+    <!-- <script type="text/javascript" src="{{asset "js/index.js"}}"></script> -->
+    <script type="text/javascript" src="{{asset "js/bootstrap.min.js"}}"></script>
+
+</body>
+</html>

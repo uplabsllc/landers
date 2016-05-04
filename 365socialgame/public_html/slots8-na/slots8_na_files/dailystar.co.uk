@@ -1,0 +1,1 @@
+PARSELY.pInit({"apikey":"dailystar.co.uk","settings":{"debug":false,"widget":false,"tracker":true},"customizations":null,"track_ip_addresses":false,"bundle":"/code/ptrack-v0.4.10.js","track_third_party_cookies":false,"uuid":"ce5c14d8-44c9-4f2a-be01-ae76a8a73265","network_uuid":null,"apikey_uuid":"ce5c14d8-44c9-4f2a-be01-ae76a8a73265"});

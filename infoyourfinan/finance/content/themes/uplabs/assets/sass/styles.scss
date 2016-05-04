@@ -1,0 +1,48 @@
+.thumbnails {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.thumbnails li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.recent-post img {
+    height: 80px;
+    width: 80px;
+}
+
+.caption {
+    padding-left: 10px;
+}
+
+.feature-thumbnail {
+    height: 200px;
+    width: 100%;
+}
+
+.headline {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+}
+.unified-index-row {
+  height: 150px;
+  border-width: 1px;
+  border-style: solid;
+}
+.index-post-row {
+   width: 130px;
+   height: 130px; 
+ }
+ /* Index CSS Styling */
+@media (max-width: 970px) {
+  .post-content img {
+    width: 100%;
+    max-height: 50%;
+  }
+}

@@ -1,0 +1,36 @@
+/* Site settings */
+body {background-color:#ffffff;margin:0px;font-family:Arial,sans-serif;font-size:13px;font-weight:normal;font-style:normal;text-decoration:none;color:#000000;letter-spacing:0em;-webkit-print-color-adjust:exact;}
+a {text-decoration:underline;}
+a:link {color:#0000EE; cursor:pointer;}
+a:visited {color:#561A8B;}
+a:hover {color:#0000EE;}
+a * {color:#0000EE;text-decoration:underline;}
+sup {font-size:0.7em; vertical-align: 0.3em;}
+sub {font-size:0.7em;}
+.xr_tl {position: absolute; white-space: pre; unicode-bidi:bidi-override;}
+.xr_tr {position: absolute; white-space: pre; unicode-bidi:bidi-override; text-align:right;}
+.xr_tc {position: absolute; white-space: pre; unicode-bidi:bidi-override; text-align:center;}
+.xr_tj {position: absolute; unicode-bidi:bidi-override; text-align:justify;}
+.xr_ap {position: absolute; border:none;}
+.xr_ar {position: absolute; display:block;}
+.xr_ae {position: relative; border:none;}
+.xr_tb {position: absolute; unicode-bidi:bidi-override;}
+.xr_tu {unicode-bidi:bidi-override;margin-top:0px;margin-bottom:0px;}
+body {text-align:center;}
+@media screen, handheld {
+.xr_app {position: absolute;}
+.xr_apb {display:block; position:absolute;}
+.xr_c_Light_Text {color:#FFFFFF;}
+.xr_c_blue_djw {color:#1388DE;}
+.xr_bgb0 {background-color: #FFFFFF;}
+.xr_bgb1 {background-color: #FFFFFF;}
+.xr_bgb2 {background-color: #FFFFFF;}
+.xr_bgb3 {background-color: #FFFFFF;}
+.xr_bgb4 {background-color: #FFFFFF;}
+.xr_bgb5 {background-color: #FFFFFF;}
+}
+@media print {
+ .xr_app {position:relative; top:0px; page-break-after: always; display: block !important; visibility: visible !important;}
+ .xr_apb {display:none;}
+ .xr_mvpo {display:none;}
+}

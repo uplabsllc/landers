@@ -1,0 +1,59 @@
+#header{background: #F00}#branding{max-width:1024px;margin:0 auto}#footer{background: #333}@font-face {
+  font-family: 'Source Serif Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Serif Pro Bold'), local('SourceSerifPro-Bold'), url(http://fonts.gstatic.com/s/sourceserifpro/v4/yd5lDMt8Sva2PE17yiLarPL4IuR-ahLEWoayHEGoZqI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}body{padding:0;margin:0;font-family:Helvetica,Arial,sans-serif;font-weight:200;font-size:16px}h1{font-family:'Source Serif Pro',Helvetica,Arial,sans-serif;font-weight:bold;line-height:1.15;word-spacing:-.1rem;margin:2px 0 0}hr{
+	background-color: #999999;
+	border: 0;
+	height: 3px;
+	margin: 25px 0
+}a{color:#06c;font-weight:bold;font-family:Helvetica,Arial,sans-serif}p:first-of-type{margin-top:0}#site-title{
+	max-height: 30px;
+}#site-title #desklogo{display:block}#site-title #moblogo{display:none}.article-top h4{font-size:10pt;margin:0;font-weight:normal}.page-content,.entry-content,.entry-summary{margin:.5em 0 0}.colleft{float:left;width:680px;margin:5px 20px 0 0}.colright{position:fixed;border-radius:10px}.colright-container{width:300px;float:left}.colright{width:300px;padding:15px;position:fixed;border-radius:10px}#container{line-height:24px;clear:both;color:#000;margin:0px auto;width:100%;max-width:1024px;padding:22px 10px 0;box-sizing:border-box;vertical-align:baseline;zoom:1}.full{
+	width: 100%;
+	height: auto;
+	margin-top: 0px;
+}#second-image{text-align:center}#exclusive-box{
+	color: #000;
+	padding: 30px;
+	margin: 30px 0;
+	border: 6px solid #e63737;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color: #00CC33
+}#exclusive-box p:first-of-type{
+	color: #FF0000;
+	font-size: 18px;
+	margin-top: 0
+}#exclusive-box p{}#exclusive-box p:last-child{margin-bottom:0}#jackpot-table a img{width:150px}#comment-table{font-size:10pt}#comment-table .column-1{width:75px;padding:14px 8px 8px;box-sizing:border-box;vertical-align:top}#comment-table .column-2{padding:8px;box-sizing:border-box}.jackpots{display:none}#jackpot-footer{position:fixed;bottom:0;left:0;width:100%;height:55px;z-index:1}#jackpot-cta{float:right;padding:4px 10px;vertical-align:middle;box-sizing:border-box;background:#009ecd;font-weight:bold;color:#fff;font-size:14px;line-height:2rem;border-radius:4px;margin:5px;margin-top:8px}#jackpot-table a img{border-radius:10px}#tips,#tips li{margin:0;padding:0;list-style:none}#tips{width:100%;background:rgba(0,35,52,.9);padding:5px;height:55px}#tips li{display:none;color:#fff}#tips li a img{border-radius:7px;margin:0 10px 0 0;width:45px;height:45px}div.figure{border:thin silver solid;margin:10px 20px 10px 0;padding:0em;width:100px;float:left}div.figure p{font-style:italic;font-size:smaller;text-indent:0;margin:0px}div.figure .caption{background-color:#efefef;padding:.2em;text-align:left;font-size:8pt;line-height:10pt}.jackpots-side h4{margin:0 0 10px;font-size:18px}.jackpots-side td.column-2{padding-left:10px;font-size:14px}.float{float:left;width:100%}
+#disclaimer-footer
+{
+	color:#c5c5c5;font-size:14px
+	}
+#disclaimer-footer a
+{
+	text-decoration:none;color:#c5c5c5}#copyright{margin-bottom:4.4rem}
+	
+	#footer{
+	padding:20px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	float:left;
+	width:100%;
+	box-sizing:border-box
+}
+#footer h4{
+	font-size:10px;
+	font-weight:normal;
+	margin:1.1rem 0;
+	clear:both}.footer-credits ul,.footer-credits ul li{display:inline-block;list-style-type:none;background:none;border:0;margin:0px;padding:0;vertical-align:middle}.footer-credits ul li a{text-decoration:none;color:inherit;font-weight:normal;letter-spacing:normal;text-transform:none;margin:0 10px}@media screen and (max-width:1096px){.colleft{
+	width: 100%;
+	margin-right: 0;
+	margin-top: 20px;
+}.colright-container{display:hidden}.jackpots{display:block}.colright-container{display:none}}@media (max-width:400px){#container{padding-top:5px}#site-title img{
+	width: 100%;
+	float: left;
+}#footer{font-size:10px;line-height:16px}}/* CSS Document */

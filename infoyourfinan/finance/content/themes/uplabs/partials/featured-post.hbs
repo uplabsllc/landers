@@ -1,0 +1,15 @@
+<!--  <h4 class="headline">TOP WAYS TO SAVE MONEYS</h4>
+ {{#get "posts" limit="1" filter="-{{post.id}}"}}
+ {{#foreach sidebarPosts}}
+ <img class="feature-thumbnail" src={{image}} />
+ <h5><strong>{{title}}</strong></h5>
+ {{/foreach}}
+{{/get}}
+ -->
+<section>
+  <h4 class="headline">TOP WAYS TO SAVE MONEYS</h4>
+  {{#foreach sidebarPosts}}
+    <a href="{{url}}"><img class="feature-thumbnail" src={{image}} />
+    <h5><strong>{{title}}</strong></h5></a>
+  {{/foreach}}
+</section>
